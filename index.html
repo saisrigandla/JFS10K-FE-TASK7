@@ -3,22 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>phone number pattern</title>
+    <title>Phone Number Pattern</title>
 </head>
 <body>
   <form action="./sub.html" >
-    <table width="50%" align="center">
+    <center>
+    <table width="30%">
       <tr>
         <td>
           <fieldset>
             <label for="phone">Phone Number:</label>
-            <br><br><input type="tel" id="phone" placeholder="Enter your phone number" pattern="\+91 [6-9]{1}[0-9]{9}" title="Please enter a valid phone number (e.g., +91 7670886895)" required>
+            <br><br>
+            <input type="tel" id="phone" placeholder="Enter your phone number" pattern="\+91 [6-9]{1}[0-9]{9}" title="Please enter a valid phone number (e.g., +91 7670886895)" autocomplete="off" required>
             <br><br>
             <input type="submit">
           </fieldset>
         </td>
       </tr>
     </table>
+    </center>
   </form>
 </body>
 </html>
